@@ -1,0 +1,26 @@
+body{
+  background-color: #efe5c1;
+}
+
+.slick{
+  width: 83%;
+  margin:auto;
+}
+
+@media (max-width:442px) {
+ .section_point01 .inner,
+ .section_point02 .inner,
+ .section_point03 .inner,
+ .section_point04 .inner,
+.section_point04_bottom .inner
+ {
+    padding: 0;
+  }
+  .slick{
+  width: 90%;
+}
+}
+
+.container{
+  max-width: 800px;
+}
