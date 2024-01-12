@@ -574,13 +574,23 @@ body {
   margin: auto;
 }
 
+.section_point01 .inner,
+  .section_point02 .inner,
+  .section_point03 .inner,
+  .section_point04 .inner,
+  .section_point04_bottom .inner {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+
 @media (max-width: 442px) {
   .section_point01 .inner,
   .section_point02 .inner,
   .section_point03 .inner,
   .section_point04 .inner,
   .section_point04_bottom .inner {
-    padding: 0;
+    padding: 16px;
   }
   .slick {
     width: 90%;
